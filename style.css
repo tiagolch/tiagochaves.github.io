@@ -1,0 +1,95 @@
+main h1 {
+    color:white;
+    text-transform: uppercase;
+    padding: 2%;
+}
+
+.lead {
+    color:white !important;
+}
+
+#botao-contato {
+    /* transform: scale(1.5); */
+    transition: 1s
+}
+
+#botao-contato:hover {
+    transform: scale(1.5);
+    /* transition-duration: 2s; */
+    /* transition-property: margin-right, color; */
+}
+
+header li {
+    padding-right: 1em;
+}
+
+header li:hover {
+    transform: scale(1.5);
+    transition-duration: 1s, 1s;
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+.foto-perfil {
+    height: 400px;
+    max-width: auto;
+    border-radius: 20%;
+}
+
+.mb-0, p {
+    color: black;
+}
+
+section, footer {
+    padding-bottom: 3%;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c
+}
+
+.paragrafoBrancos {
+    color: white !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.corPrimaria {
+    background-color: #048668;
+}
+
+.itemMenu {
+    color: white;
+}
