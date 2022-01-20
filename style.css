@@ -19,6 +19,10 @@ main h1 {
     /* transition-property: margin-right, color; */
 }
 
+legend {
+    text-align: center;
+}
+
 header li {
     padding-right: 1em;
 }
